@@ -132,8 +132,24 @@ script_includes:
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         {% for category in page.categories %}
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
-          {%- unless forloop.last -%},{%- endunless -%}
+          {% assign cat_inspect = category | inspect %}
+          {% assign first_char = cat_inspect | slice: 0, 1 %}
+
+          {% if first_char == "[" %}
+            <!-- category 자체가 배열이면(이중배열 등), 내부를 또 반복 -->
+            {% for subcat in category %}
+              <a href="{{ site.baseurl }}/categories/{{ subcat | slugify | url_encode }}/">
+                {{ subcat }}
+              </a>
+              {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          {% else %}
+            <!-- category가 문자열이면 바로 slugify -->
+            <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">
+              {{ category }}
+            </a>
+            {% unless forloop.last %},{% endunless %}
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
