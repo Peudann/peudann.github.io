@@ -15,6 +15,8 @@ date: 2025-03-16
 last_modified_at: 2025-04-25
 ---
 
+[25.03.14 / Queue](https://peudann.github.io/posts/queue/)
+
 저번 글에서 알아본 큐는 선형 큐였다. 선형 큐에서는 배열의 처음과 끝이 고정되어 있어서, 원소를 계속 삽입하고 삭제하다 보면 비어 있는 공간이 있더라도 배열의 끝 부분에 더 이상 원소를 삽입할 수 없는 문제가 발생한다. 하지만 원형 큐를 사용하면 Front나 Rear가 배열의 끝에 도달했을 때 다시 배열의 처음으로 돌아와 빈 공간을 활용할 수 있게 된다
 
 <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
