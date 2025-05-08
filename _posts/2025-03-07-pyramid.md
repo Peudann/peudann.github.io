@@ -4,7 +4,7 @@ excerpt: ""
 
 categories:
   - Programming
-  - C
+  - Clang
 tags:
   - []
 
