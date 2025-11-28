@@ -242,22 +242,24 @@
   },
   "active": "16e74e3d320a4565",
   "lastOpenFiles": [
+    "assets/img/favicons/web-app-manifest-512x512.png",
+    "assets/img/favicons/web-app-manifest-192x192.png",
     "assets/img/favicons/site.webmanifest",
+    "assets/img/favicons/favicon.svg",
+    "assets/img/favicons/favicon.ico",
+    "assets/img/favicons/favicon-96x96.png",
+    "assets/img/favicons/apple-touch-icon.png",
     "assets/img/favicons/favicon-32x32.png",
     "assets/img/favicons/favicon-16x16.png",
-    "assets/img/favicons/apple-touch-icon.png",
     "assets/img/favicons/android-chrome-512x512.png",
     "assets/img/favicons/android-chrome-192x192.png",
     "assets/img/favicons/about.txt",
-    "assets/img/favicons/favicon.ico",
     "assets/img/favicons",
     "assets/img/무제 폴더",
     "assets/img/profile.png",
     "assets/img/profile.PNG",
-    "assets/img/IMG_0237.PNG",
     "assets/img",
     "assets/무제 폴더",
-    "IMG_0237.PNG",
     "_posts/2025-11-29-test.md",
     "_posts/2025-11-29-test1.md",
     "_posts/2025-11-29-test3.md",
@@ -269,7 +271,6 @@
     "Untitled 1.base",
     "Untitled.base",
     "Untitled 2.base",
-    "_posts/2025-11-29-Test.md.md",
-    "_templates"
+    "_posts/2025-11-29-Test.md.md"
   ]
 }
