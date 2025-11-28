@@ -1,0 +1,30 @@
+/* Dataview 쿼리 결과를 깔끔한 카드 형태로 만듭니다. */
+.dataview.table-view-table {
+  border: none !important;
+  margin-top: 5px;
+}
+
+.dataview.table-view-table tr {
+  background: var(--background-secondary); /* 배경색 지정 */
+  border: none;
+}
+
+.dataview.table-view-table th {
+  color: var(--text-muted) !important; /* 헤더 색상 */
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dataview.table-view-table td {
+  padding: 5px 10px;
+  border: none;
+}
+
+/* GUI처럼 보이게 테이블 외곽 스타일 제거 */
+.dataview.table-view-table {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
